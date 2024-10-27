@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinBeer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:entries="@array/type_beer"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnBeer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pushBtn"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvBeer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textPiva"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imgBeer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dead_pivo" />
+
+</LinearLayout>

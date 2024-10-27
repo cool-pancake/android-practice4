@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppBeer</string>
+    <string name="textPiva">Тип пива</string>
+    <string name="pushBtn">Нажать</string>
+    <string-array name="type_beer">
+        <item>Темное</item>
+        <item>Светлое</item>
+        <item>Ржанное</item>
+        <item>Сладкое</item>
+        <item>Горькое</item>
+    </string-array>
+</resources>
